@@ -92,11 +92,13 @@ width:60%;
 /* メニューボタン */
 .menu-btn {
   position: fixed;
-  top: 20px;
+  top: 70px;
   right: 20px;
-  width: 200px;
-  height: 50px;
-  background-color:rgba(0,0,0,0.9);
+  /* width: 100px;
+  height: 100px; */
+  padding:30px;
+  background-color:rgba(0, 0, 0, 0.9);
+  border-radius:100%;
   line-height: 50px;
   font-size: 12px;
   text-align: center;
@@ -106,10 +108,12 @@ width:60%;
 
 .menu-btn span {
   color: #fff;
+  margin-top:10px;
 }
 
 .menu-btn span:after {
   content: attr(data-txt-menu);
+  
 }
 
 /* 開閉用ボタンがクリックされた時のスタイル */
@@ -125,7 +129,7 @@ width:60%;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,.8);
+  background:rgba(15, 2, 67, 0.9);
   -webkit-transition: all .5s;
   transition: all .5s;
   visibility: hidden;
@@ -292,7 +296,7 @@ width:60%;
 
 .puroduct-content-container{
   background-color:whitesmoke;
-  padding-bottom:400px;
+  padding-bottom:200px;
   position: relative;
 }
 .puroduct-content-container h2{
@@ -336,6 +340,19 @@ width:60%;
 /* main-contents_end */
 
 
+/* guideページ */
+.guide-guide-map{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.info-info-form{
+  text-align:center;
+  padding:100px;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
 @media screen and ( max-width:544px ){
 
   .index-top{
@@ -347,11 +364,13 @@ width:60%;
     content: "\A" ;
     white-space: pre ;
   }
+  .top-title{
+   padding:10px;
+  }
   .index-top h1{
     top:40px;
     width:100%;
     padding:30px;
-
   }
   .index-top p{
     width:60%;
@@ -423,19 +442,31 @@ width:60%;
   /* 動くタイトルend */
 
   .puroduct-writ{
+    margin-top:100px;
+    width:100%;
+    /* background-color:black; */
+    font-size:15px;
+    padding-left:5px;
+    }
+    .puroduct-content-img{
+      left:65%;
+      top:350px;
+      width:30%;
+    }
+    .puroduct-content-container{
+      padding-bottom:100px;
+    }
+  /* .puroduct-writ{
     width:100%;
     }
   .puroduct-p{
     position: static;
     font-size:20px;
-    /* text-align:center; */
-    /* margin:auto; */
     margin-top:100px;
-    /* width:70%; */
     background-color:whitesmoke;
     color:#555;
     visibility: hidden;
   
-  }
+  } */
 
 }
