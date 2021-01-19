@@ -319,8 +319,19 @@ width:60%;
   left:70%;
   top:650px;
 }
-
-
+.i-fot{
+  margin-top:20px;
+  color:gray;
+}
+.i-fot img {
+ width:100px;
+ height:100px;
+ margin-left:10px;
+ margin-bottom:20px;
+}
+.i-fot p{
+ margin-left:10px;
+}
 
 /* main-contents_end */
 
