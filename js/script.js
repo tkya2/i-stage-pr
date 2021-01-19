@@ -32,7 +32,7 @@ $(function () {
 
 // スクロールアニメーション
 $(function(){
-  window.sr = ScrollReveal({ reset: true ,mobile: true});
+  window.sr = ScrollReveal({ mobile: true});
   ScrollReveal().reveal('.weworks-col', 
   { delay: 120, 
     distance: '430px', 
