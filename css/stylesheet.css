@@ -353,7 +353,6 @@ width:60%;
 }
 .info-info-form{
   text-align:center;
-  padding:100px;
   margin-top:100px;
   margin-bottom:100px;
 }
@@ -484,7 +483,7 @@ width:60%;
     height:290px;
   }
   .info-info-form iframe{
-    width:350px;
+    width:290px;
     height:690px;
   }
 }
