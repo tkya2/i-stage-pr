@@ -50,9 +50,10 @@ img {
   
 }
 .index-top{
-  background-image:url(../img/stickies-2852375_1920.jpg);
+  background-image:url(../img/business-2987962_1920.jpg);
+  background-size:cover;
   height: 100%;
-  
+
 }
 .index-top h1{
   position:absolute; 
@@ -346,17 +347,25 @@ width:60%;
   margin-top:100px;
   margin-bottom:100px;
 }
+.guide-guide-map iframe{
+  width:1000px;
+  height:750px;
+}
 .info-info-form{
   text-align:center;
   padding:100px;
   margin-top:100px;
   margin-bottom:100px;
 }
+.info-info-form iframe{
+  width:650;
+  height:450;
+}
 
 @media screen and ( max-width:544px ){
 
   .index-top{
-    background-image:url(../img/IMG_0713.JPG);
+    background-image:url(../img/IMG_0652.JPG);
     height: 100%;
     background-size: cover;
   }
@@ -469,4 +478,13 @@ width:60%;
   
   } */
 
+
+  .guide-guide-map iframe{
+    width:350px;
+    height:290px;
+  }
+  .info-info-form iframe{
+    width:350px;
+    height:690px;
+  }
 }
